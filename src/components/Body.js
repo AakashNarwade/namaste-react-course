@@ -15,7 +15,7 @@ const Body = () => {
     const jsonRes = await res.json();
     // initialize checkJsonData() function to check Swiggy Restaurant data
     async function checkJsonData(jsonData) {
-      for (let i = 0; i < jsonData?.data?.cards.length; i++) {
+      for (let i = 0; i < jsonData?.data?.cards?.length; i++) {
         // initialize checkData for Swiggy Restaurant data
         let checkData =
           jsonData?.data?.cards[i]?.card?.card?.gridElements?.infoWithStyle
@@ -34,15 +34,6 @@ const Body = () => {
 
     setRestaurantList(resData);
     setFilteredRestaurant(resData);
-
-    // setRestaurantList(
-    //   result?.data?.cards[3].card?.card?.gridElements?.infoWithStyle
-    //     ?.restaurants
-    // );
-    // setFilteredRestaurant(
-    //   result?.data?.cards[3].card?.card?.gridElements?.infoWithStyle
-    //     ?.restaurants
-    // );
   };
 
   useEffect(() => {
@@ -54,13 +45,7 @@ const Body = () => {
   }
 
   const filterRestaurantsHandler = () => {
-    console.log(
-      "restaurantList.filter((res) => res?.info?.avgRating >= 4.2);=>  ",
-      restaurantList.filter((res) => res?.info?.avgRating > 4)
-    );
     const res = restaurantList.filter((res) => res?.info?.avgRating >= 4);
-    console.log("res=> ", res);
-    // setRestaurantList(res);
     setFilteredRestaurant(res);
   };
 
@@ -68,10 +53,8 @@ const Body = () => {
     const searchedRes = restaurantList?.filter((res) =>
       res?.info?.name?.toLowerCase().includes(searchText.toLowerCase())
     );
-    console.log("searched res => ", searchedRes);
     setFilteredRestaurant(searchedRes);
   };
-  console.log("rendered", restaurantList);
 
   return restaurantList?.length === 0 ? (
     <Shimmer />
@@ -89,7 +72,6 @@ const Body = () => {
             Search
           </button>
         </div>
-        {/* {console.log(searchText)} */}
         <button
           className="filter-btn"
           onClick={() => filterRestaurantsHandler()}
