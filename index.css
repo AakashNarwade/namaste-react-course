@@ -30,6 +30,7 @@ border: 2px solid red;
 .restaurant-container{
     display: flex;
     flex-wrap: wrap;
+    margin: 20px 0;
 }
 
 .restaurant-card{
@@ -41,8 +42,13 @@ background-color: #f0f0f0;
     /* border: 1px solid black; */
 }
 
+
 .search{
     padding: 10px;
+}
+
+.search-btn{
+    cursor: pointer;
 }
 
 .restaurant-logo{
@@ -58,4 +64,30 @@ background-color: #f0f0f0;
 .filter-btn{
     margin: 10px;
     cursor: pointer;
+}
+
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.shimmer-card{
+    margin: 20px;
+    width: 200px;
+    height: 400px;
+    background-color: #f0f0f0;
+
+}
+
+.login-btn{
+    padding: 0 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.filter{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
 }
