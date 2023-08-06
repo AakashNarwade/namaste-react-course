@@ -3,12 +3,16 @@ import RestaurantCard from "./RestaurantCard";
 // import resData from "../utils/mockData1";
 import Shimmer from "./Shimmer";
 import { URL } from "../utils/constants";
+import { Link } from "react-router-dom";
+import useOnlineStatus from "../utils/useOnlineStatus";
 
 const Body = () => {
   //State variable
   const [restaurantList, setRestaurantList] = useState([]);
   const [filteredRestaurant, setFilteredRestaurant] = useState([]);
   const [searchText, setSearchText] = useState("");
+  const onlineStatus = useOnlineStatus();
+  console.log(onlineStatus);
 
   const fetchData = async () => {
     const res = await fetch(URL);
@@ -56,6 +60,9 @@ const Body = () => {
     setFilteredRestaurant(searchedRes);
   };
 
+  if (onlineStatus === false)
+    return <h2>Looks youre offline , please connect to internet</h2>;
+
   return restaurantList?.length === 0 ? (
     <Shimmer />
   ) : (
@@ -81,7 +88,13 @@ const Body = () => {
       </div>
       <div className="restaurant-container">
         {filteredRestaurant?.map((restaurant, i) => (
-          <RestaurantCard key={restaurant?.info?.id} resData={restaurant} />
+          <Link
+            to={"/restaurants/" + restaurant?.info?.id}
+            key={restaurant?.info?.id}
+            style={{ textDecoration: "none" }}
+          >
+            <RestaurantCard resData={restaurant} />
+          </Link>
         ))}
       </div>
     </div>

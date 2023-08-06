@@ -2,34 +2,54 @@ import React, { useEffect, useState } from "react";
 import { MENU_URL } from "../utils/constants";
 import Shimmer from "./Shimmer";
 import { useParams } from "react-router-dom";
+import useRestaurantMenu from "../utils/useRestaurantMenu";
 
 const RestaurantMenu = () => {
-  const [resInfo, setResInfo] = useState(null);
+  // const [resInfo, setResInfo] = useState(null);
   const { resId } = useParams();
-  console.log(resId);
-  useEffect(() => {
-    fetchMenu();
-  }, []);
-  const fetchMenu = async () => {
-    const res = await fetch(MENU_URL + resId);
-    const resJson = await res.json();
-    console.log(resJson);
-    setResInfo(resJson.data);
-    // cards[0]?.card?.card?.info?.name
-  };
+  const resInfo = useRestaurantMenu(resId);
+  console.log(resInfo);
+  // console.log(resId);
+  // useEffect(() => {
+  //   fetchMenu();
+  // }, []);
+  // const fetchMenu = async () => {
+  //   const res = await fetch(MENU_URL + resId);
+  //   const resJson = await res.json();
+  //   console.log(resJson);
+  //   setResInfo(resJson.data);
+  //   // cards[0]?.card?.card?.info?.name
+  // };
 
   if (resInfo === null) {
     return <Shimmer />;
   }
 
-  const { name, cuisines, costForTwoMessage, avgRating } =
+  const { name, cuisines, costForTwoMessage } =
     resInfo?.cards[0]?.card?.card?.info;
 
   const { itemCards } =
     resInfo?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card?.card;
-  console.log(resInfo?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]);
-  // resInfo?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card?.card
+  // const itemCards = checkJson(resInfo);
 
+  // function checkJson(jsonData) {
+  //   for (
+  //     let i = 0;
+  //     i < jsonData?.cards[i]?.groupedCard?.cardGroupMap?.REGULAR?.cards?.length;
+  //     i++
+  //   ) {
+  //     let checkData =
+  //       jsonData?.data?.cards[i]?.groupedCard?.cardGroupMap?.REGULAR?.cards[i]
+  //         .card?.card;
+
+  //     // if checkData is not undefined then return it
+  //     if (checkData !== undefined) {
+  //       return checkData;
+  //     }
+  //   }
+  // }
+  // console.log(resInfo?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]);
+  // resInfo?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card?.card
   return (
     <div className="menu">
       <h1>{name}</h1>
