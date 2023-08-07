@@ -67,26 +67,31 @@ const Body = () => {
     <Shimmer />
   ) : (
     <div className="body">
-      <div className="filter">
-        <div className="search">
+      <div className="filter flex justify-center">
+        <div className="search m-4 p-4">
           <input
             type="text"
             value={searchText}
             onChange={(e) => setSearchText(e.target.value)}
-            className="search-box"
+            className="border border-black "
           />
-          <button className="search-btn" onClick={() => searchHandler()}>
+          <button
+            className="m-4 rounded-md px-4 py-2 bg-orange-500"
+            onClick={() => searchHandler()}
+          >
             Search
           </button>
         </div>
-        <button
-          className="filter-btn"
-          onClick={() => filterRestaurantsHandler()}
-        >
-          Top Rated Restaurants
-        </button>
+        <div className="m-4 p-2 mr-4 rounded-md flex items-center">
+          <button
+            className=" rounded-md px-4 py-2 bg-orange-500"
+            onClick={() => filterRestaurantsHandler()}
+          >
+            Top Rated Restaurants
+          </button>
+        </div>
       </div>
-      <div className="restaurant-container">
+      <div className="flex flex-wrap">
         {filteredRestaurant?.map((restaurant, i) => (
           <Link
             to={"/restaurants/" + restaurant?.info?.id}
