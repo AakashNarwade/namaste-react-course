@@ -1,19 +1,20 @@
 import React, { useEffect, useState } from "react";
-import RestaurantCard from "./RestaurantCard";
+import RestaurantCard, { withPromotedLabel } from "./RestaurantCard";
 // import resData from "../utils/mockData1";
 import Shimmer from "./Shimmer";
 import { URL } from "../utils/constants";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
-
+import { useContext } from "react";
+import UserContext from "../utils/UserContext";
 const Body = () => {
   //State variable
   const [restaurantList, setRestaurantList] = useState([]);
   const [filteredRestaurant, setFilteredRestaurant] = useState([]);
   const [searchText, setSearchText] = useState("");
   const onlineStatus = useOnlineStatus();
-  console.log(onlineStatus);
-
+  const RestaurantCardPromoted = withPromotedLabel(RestaurantCard);
+  const { loggedInUser, setUserName } = useContext(UserContext);
   const fetchData = async () => {
     const res = await fetch(URL);
     const jsonRes = await res.json();
@@ -89,6 +90,15 @@ const Body = () => {
           >
             Top Rated Restaurants
           </button>
+          <div className="pl-6">
+            <label> Username:</label>
+            <input
+              className="p-2"
+              type="text"
+              onChange={(e) => setUserName(e.target.value)}
+              value={loggedInUser}
+            />
+          </div>
         </div>
       </div>
       <div className="flex flex-wrap">
@@ -98,7 +108,11 @@ const Body = () => {
             key={restaurant?.info?.id}
             style={{ textDecoration: "none" }}
           >
-            <RestaurantCard resData={restaurant} />
+            {restaurant?.data?.promoted ? (
+              <RestaurantCardPromoted resData={restaurant} />
+            ) : (
+              <RestaurantCard resData={restaurant} />
+            )}
           </Link>
         ))}
       </div>
