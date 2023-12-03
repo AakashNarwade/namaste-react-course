@@ -2,14 +2,19 @@ import React, { useContext, useState } from "react";
 import { LOGO_URL } from "../utils/constants";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
-import UserContext from "../utils/UserContext";
+import { useSelector } from "react-redux";
+// import UserContext from "../utils/UserContext";
 // import useOnlineStatus from "../utils/useOnlineStatus";
 
 const Header = () => {
   const [loginButton, setLoginButton] = useState(false);
   const onlineStatus = useOnlineStatus();
-  const { loggedInUser } = useContext(UserContext);
-  console.log(loggedInUser);
+
+  //subscribing to the store using Selector
+  const cartItems = useSelector((store) => store.cart.items);
+  console.log("cart, cartItems", cartItems);
+  // const { loggedInUser } = useContext(UserContext);
+  // console.log(loggedInUser);
   return (
     <div className="flex justify-between bg-gray-50 shadow-lg">
       <Link to={"/"}>
@@ -33,8 +38,10 @@ const Header = () => {
           <li className="px-4  hover:bg-orange-500">
             <Link to={"/grocery"}>Grocery</Link>
           </li>
-          <li className="px-4  hover:bg-orange-500">Cart</li>
-          <li className="px-4 text-lg">{loggedInUser}</li>
+          <li className="px-4 font-bold  text-xl">
+            <Link to="/cart">Cart({cartItems.length} items)</Link>
+          </li>
+          {/* <li className="px-4 text-lg">{loggedInUser}</li> */}
 
           {/* <div className="px-4"> */}
           <button onClick={() => setLoginButton(!loginButton)} className="px-4">
