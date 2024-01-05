@@ -6,6 +6,19 @@ import "@testing-library/jest-dom";
 //describe is used to group the tests
 //test == it its one and the same thing
 describe("Contact Us  page it cases", () => {
+  beforeAll(() => {
+    console.log("Before All");
+  });
+  afterAll(() => {
+    console.log("After all");
+  });
+  afterEach(() => {
+    console.log("After each");
+  });
+  beforeEach(() => {
+    console.log("Before Each");
+  });
+  
   it("Should load conatct us component", () => {
     render(<Contact />);
     const heading = screen.getByRole("heading");
