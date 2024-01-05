@@ -37,7 +37,7 @@
 *      - Address
 *      - Contact
 *      
-*/
+**/
 
 
 # React Hooks
@@ -61,3 +61,21 @@
   - Slice (cartSlice)
   - dispatch()
   - Selector
+
+
+# Types of testing (developer)
+- Unit Testing 
+- Integration Testing
+- End to End Testing - e2e testing
+
+# Setting up Testing in our app
+- Install React Testing Library
+- Install jest
+- Install Babel dependencies
+- Configure Babel
+- Configure Parcel Config file to disable default babel transpilation
+- Jest configuration
+- install jsdom library
+- Install @babel/preset-react  to enable jsx while testing the component
+- Include @babel/preset-react  inside  babel config
+- Install @testing-library/jest-dom

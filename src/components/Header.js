@@ -12,7 +12,7 @@ const Header = () => {
 
   //subscribing to the store using Selector
   const cartItems = useSelector((store) => store.cart.items);
-  console.log("cart, cartItems", cartItems);
+  // console.log("cart, cartItems", cartItems);
   // const { loggedInUser } = useContext(UserContext);
   // console.log(loggedInUser);
   return (
@@ -45,7 +45,7 @@ const Header = () => {
 
           {/* <div className="px-4"> */}
           <button onClick={() => setLoginButton(!loginButton)} className="px-4">
-            {loginButton ? "Login" : "Logout"}
+            {loginButton ? "Logout" : "Login"}
           </button>
           {/* </div> */}
         </ul>
