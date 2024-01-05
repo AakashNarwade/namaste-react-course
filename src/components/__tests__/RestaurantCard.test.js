@@ -10,9 +10,5 @@ it("Should load RestaurantCard Component with props Data", () => {
   expect(name).toBeInTheDocument();
 });
 
-// it("Should load RestaurantCard Component with withPromotedLabel", () => {
-//   const { baseElement } = render(<RestaurantCard />);
-//   console.log(baseElement);
-//   //   const name = screen.getByText("withPromotedLabel");
-//   expect(baseElement).toMatchSnapshot();
-// });
+
+

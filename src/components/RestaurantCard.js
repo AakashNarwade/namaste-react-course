@@ -16,7 +16,10 @@ const RestaurantCard = ({ resData }) => {
   // console.log(name, costForTwo, avgRating);
   const { loggedInUser } = useContext(UserContext);
   return (
-    <div className="m-4 p-4 w-[250px] h-[400px] rounded-lg bg-gray-100 hover:bg-gray-200">
+    <div
+      data-testid="resCard"
+      className="m-4 p-4 w-[250px] h-[400px] rounded-lg bg-gray-100 hover:bg-gray-200"
+    >
       <img
         className="rounded-md"
         src={CDN_URL + cloudinaryImageId}

@@ -35,7 +35,7 @@ const Body = () => {
 
     // call the checkJsonData() function which return Swiggy Restaurant data
     const resData = await checkJsonData(jsonRes);
-    console.log(resData);
+    // console.log(resData);
 
     setRestaurantList(resData);
     setFilteredRestaurant(resData);
@@ -72,6 +72,7 @@ const Body = () => {
         <div className="search m-4 p-4">
           <input
             type="text"
+            data-testid="searchInput"
             value={searchText}
             onChange={(e) => setSearchText(e.target.value)}
             className="border border-black "

@@ -79,3 +79,18 @@
 - Install @babel/preset-react  to enable jsx while testing the component
 - Include @babel/preset-react  inside  babel config
 - Install @testing-library/jest-dom
+
+# Testing imp points
+
+- act function -> act fn returns promise as it is async fn , inside it we render the component
+- whenever there is state update , fetch fn used in component wrap render fn inside act fn 
+- import {act} from "react-dom/test-utils"
+- it("should xyz",async()=>{
+-   await act(async () =>
+    render(
+      <BrowserRouter>
+        <Body />
+      </BrowserRouter>
+    )
+  );
+- }) 
