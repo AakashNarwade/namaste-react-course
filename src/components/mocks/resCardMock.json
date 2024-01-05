@@ -1,0 +1,83 @@
+{
+  "info": {
+    "id": "124178",
+    "name": "Starbucks Coffee",
+    "cloudinaryImageId": "258fe8a3577877fbfe064095ed1d9dc3",
+    "locality": "Ashok Nagar",
+    "areaName": "Lavelle Road",
+    "costForTwo": "₹400 for two",
+    "cuisines": [
+      "Beverages",
+      "Cafe",
+      "Snacks",
+      "Desserts",
+      "Bakery",
+      "Ice Cream"
+    ],
+    "avgRating": 4.3,
+    "parentId": "195515",
+    "avgRatingString": "4.3",
+    "totalRatingsString": "1K+",
+    "sla": {
+      "deliveryTime": 16,
+      "lastMileTravel": 0.5,
+      "serviceability": "SERVICEABLE",
+      "slaString": "16 mins",
+      "lastMileTravelString": "0.5 km",
+      "iconType": "ICON_TYPE_EMPTY"
+    },
+    "availability": {
+      "nextCloseTime": "2024-01-05 23:59:00",
+      "opened": true
+    },
+    "badges": {
+      "textExtendedBadges": [
+        {
+          "iconId": "guiltfree/GF_Logo_android_3x",
+          "shortDescription": "options available",
+          "fontColor": "#7E808C"
+        }
+      ]
+    },
+    "isOpen": true,
+    "type": "F",
+    "badgesV2": {
+      "entityBadges": {
+        "imageBased": {},
+        "textBased": {},
+        "textExtendedBadges": {
+          "badgeObject": [
+            {
+              "attributes": {
+                "description": "",
+                "fontColor": "#7E808C",
+                "iconId": "guiltfree/GF_Logo_android_3x",
+                "shortDescription": "options available"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "aggregatedDiscountInfoV3": {
+      "header": "ITEMS",
+      "subHeader": "AT ₹219"
+    },
+    "differentiatedUi": {
+      "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+      "differentiatedUiMediaDetails": {
+        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+        "lottie": {},
+        "video": {}
+      }
+    },
+    "reviewsSummary": {},
+    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+    "restaurantOfferPresentationInfo": {}
+  },
+  "analytics": {},
+  "cta": {
+    "link": "https://www.swiggy.com/restaurants/starbucks-coffee-ashok-nagar-lavelle-road-bangalore-124178",
+    "type": "WEBLINK"
+  }
+}
