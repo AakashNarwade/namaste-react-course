@@ -1,0 +1,2672 @@
+{
+  "statusCode": 0,
+  "data": {
+    "statusMessage": "done successfully",
+    "cards": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "408386",
+              "name": "NOTO - Ice Creams & Desserts",
+              "city": "Bangalore",
+              "slugs": {
+                "restaurant": "noto-healthy-ice-cream-koramangala-koramangala",
+                "city": "bangalore"
+              },
+              "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+              "cloudinaryImageId": "81ac87e5c89c16adc867be38ce5a1ba3",
+              "locality": "Ejipura",
+              "areaName": "Koramangla",
+              "costForTwo": "25000",
+              "costForTwoMessage": "₹250 for two",
+              "cuisines": ["Ice Cream"],
+              "avgRating": 4.4,
+              "veg": true,
+              "feeDetails": {
+                "restaurantId": "408386",
+                "fees": [
+                  {
+                    "name": "distance",
+                    "fee": 9500
+                  },
+                  {
+                    "name": "time"
+                  },
+                  {
+                    "name": "special"
+                  }
+                ],
+                "totalFee": 9500,
+                "icon": "v1648208530/surgecreatives/info",
+                "message": "Far (7.4 kms) | Additional delivery fee will apply"
+              },
+              "parentId": "468478",
+              "avgRatingString": "4.4",
+              "totalRatingsString": "1K+ ratings",
+              "sla": {
+                "restaurantId": "408386",
+                "deliveryTime": 25,
+                "minDeliveryTime": 25,
+                "maxDeliveryTime": 25,
+                "lastMileTravel": 7.4,
+                "serviceability": "SERVICEABLE",
+                "stressFactor": 1,
+                "rainMode": "RAIN_MODE_NONE",
+                "longDistance": "LONG_DISTANCE_IT_IS_LONG_DISTANCE",
+                "zoneId": 1,
+                "slaString": "25 MINS",
+                "lastMileTravelString": "7.4 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2024-01-06 05:55:00",
+                "visibility": true,
+                "opened": true,
+                "restaurantClosedMeta": {}
+              },
+              "aggregatedDiscountInfo": {
+                "header": "60% off",
+                "shortDescriptionList": [
+                  {
+                    "meta": "60% off | Use TRYNEW",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "Flat ₹125 off on orders above ₹499",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "descriptionList": [
+                  {
+                    "meta": "60% off up to ₹120 | Use code TRYNEW",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "Flat ₹125 off on orders above ₹499 | Use code SWIGGYWEEKENDS",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "visible": true
+              },
+              "badges": {},
+              "slugString": "noto-healthy-ice-cream-koramangala-koramangala",
+              "multiOutlet": true,
+              "isOpen": true,
+              "labels": [
+                {
+                  "title": "Timings",
+                  "message": "null"
+                },
+                {
+                  "title": "Address",
+                  "message": "KORMANGALA GROUND FLOOR GALA NO12,100 FT INNER RING ROAD,7TH CROSS,VGSLAYOUT,EJIPURA,VIVEK NAGARPOST,BANGALORE, B.B.M.P South,Karnataka,560047"
+                },
+                {
+                  "title": "Cuisines",
+                  "message": "Ice Cream"
+                }
+              ],
+              "totalRatings": 1000,
+              "aggregatedDiscountInfoV2": {
+                "header": "60% off",
+                "shortDescriptionList": [
+                  {
+                    "meta": "60% off | Use TRYNEW",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "Flat ₹125 off on orders above ₹499",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "descriptionList": [
+                  {
+                    "meta": "60% off up to ₹120 | Use code TRYNEW",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "Flat ₹125 off on orders above ₹499 | Use code SWIGGYWEEKENDS",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "couponDetailsCta": "View coupon details"
+              },
+              "type": "F",
+              "nudgeBanners": [
+                {
+                  "minValue": 349,
+                  "maxValue": 499,
+                  "priority": 2,
+                  "couponCode": "SWIGGYWEEKENDS",
+                  "discountInfo": {
+                    "discountType": "Flat",
+                    "value": 125
+                  },
+                  "lockedMessage": "Add items worth ₹<amount> to save ₹125 | Code SWIGGYWEEKENDS",
+                  "unlockedMessage": "SWIGGYWEEKENDS Coupon Unlocked! Use it to save ₹125",
+                  "logoCtx": {}
+                }
+              ],
+              "headerBanner": {
+                "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/408386"
+              },
+              "expectationNotifiers": [
+                {
+                  "text": "Far (7.4 kms) | Additional delivery fee will apply",
+                  "icon": {
+                    "imageId": "v1648208530/surgecreatives/info"
+                  },
+                  "popup": {
+                    "cta": {}
+                  },
+                  "type": "DISTANCE_FEE_FOOD_LM",
+                  "enrichedText": "<b>Far (7.4 kms)</b> | Additional delivery fee will apply",
+                  "halfCardPopup": {
+                    "halfCardPopupHeader": {}
+                  }
+                }
+              ],
+              "ratingSlab": "RATING_SLAB_5",
+              "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+              },
+              "hasBestsellerItems": true,
+              "cartOrderabilityNudgeBanner": {
+                "parameters": {},
+                "presentation": {}
+              },
+              "latLong": "12.93878177,77.62969662"
+            },
+            "analytics": {}
+          },
+          "relevance": {
+            "type": "RELEVANCE_TYPE_CHECK_ORDERABILITY_ON_ITEM_ADD",
+            "sectionId": "POP_UP_CROUTON_MENU"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+            "layout": {
+              "rows": 1,
+              "columns": 5,
+              "horizontalScrollEnabled": true,
+              "itemSpacing": 12,
+              "lineSpacing": 10,
+              "widgetPadding": {},
+              "containerStyle": {
+                "containerPadding": {
+                  "left": 10,
+                  "right": 10,
+                  "bottom": 16
+                }
+              },
+              "scrollBar": {}
+            },
+            "id": "offerCollectionWidget_UX4",
+            "gridElements": {
+              "infoWithStyle": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+                "offers": [
+                  {
+                    "info": {
+                      "header": "60% OFF UPTO ₹120",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": ["86a6165b-a800-419d-8bc8-2e07034e9846"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE TRYNEW",
+                      "description": "ABOVE ₹179",
+                      "offerType": "offers",
+                      "restId": "408386",
+                      "offerLogo": "offers/generic",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT ₹125 OFF",
+                      "offerTag": "FLAT DEAL",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": ["1dcc448f-c1ca-4783-9e15-4512809fbf84"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE SWIGGYWEEKENDS",
+                      "description": "ABOVE ₹499",
+                      "offerType": "offers",
+                      "restId": "408386",
+                      "offerLogo": "offers/generic",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT ₹100 OFF",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "rng/md/ads/production/cd60f23dc2ac83be906d0f6ba55d3d12",
+                      "offerIds": ["80873c0f-e6b3-485a-9215-a0c0c8f1a078"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "NO CODE REQUIRED",
+                      "description": "ABOVE ₹750",
+                      "offerType": "offers",
+                      "restId": "408386",
+                      "offerLogo": "rng/md/ads/production/cd60f23dc2ac83be906d0f6ba55d3d12",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "15% OFF UPTO ₹300",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "rng/md/ads/production/15fb1cfe885005447dc8375e7970600f",
+                      "offerIds": ["1a4ecf1d-60f2-4034-b918-89db25e95d98"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE CITIFOODIE",
+                      "description": "ABOVE ₹1200",
+                      "offerType": "offers",
+                      "restId": "408386",
+                      "offerLogo": "rng/md/ads/production/15fb1cfe885005447dc8375e7970600f",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT ₹125 OFF",
+                      "offerTag": "FLAT DEAL",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": ["45494023-c2c2-4cd0-9e98-59873aea5b7f"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE FLAT125",
+                      "description": "ABOVE ₹499",
+                      "offerType": "offers",
+                      "restId": "408386",
+                      "offerLogo": "offers/generic",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  }
+                ],
+                "habitMilestoneInfo": {
+                  "callout": {}
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "groupedCard": {
+          "cardGroupMap": {
+            "REGULAR": {
+              "cards": [
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                      "isPureVeg": true,
+                      "badges": {},
+                      "vegOnlyDetails": {
+                        "imageId": "AutoVegOnly_qkjowj",
+                        "title": "Showing only vegetarian options.",
+                        "description": "Tap on the VEG ONLY button to turn off the setting"
+                      },
+                      "topRatedFilter": {},
+                      "kidsCategoryFilter": {
+                        "attributes": {
+                          "displayText": "Kids Favourites",
+                          "tooltip": {
+                            "enabled": true,
+                            "displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+                          }
+                        }
+                      },
+                      "vegFilter": {
+                        "attributes": {
+                          "displayText": "VEG"
+                        }
+                      },
+                      "nonvegFilter": {
+                        "attributes": {
+                          "displayText": "NONVEG"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuCarousel",
+                      "title": "Top Picks",
+                      "carousel": [
+                        {
+                          "type": "TopCarousel",
+                          "subtype": "image",
+                          "bannerId": "1250927",
+                          "creativeId": "TopPicks/ChoVICC",
+                          "title": "Chocolate Vanilla Ice Cream Cake",
+                          "description": " ",
+                          "fontColor": "#FFFFFF",
+                          "dish": {
+                            "info": {
+                              "id": "119376275",
+                              "name": "Chocolate Vanilla Ice Cream Cake",
+                              "category": "Ice Cream Cake",
+                              "description": "A decadent ice cream cake featuring luscious chocolate ganache, creamy vanilla ice cream, and cherry ganache atop chocolate cake",
+                              "imageId": "4a31fcfd251eac2b31368327c53ab2ce",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 38100,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "itemBadge": {},
+                              "badgesV2": {}
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "type": "TopCarousel",
+                          "subtype": "image",
+                          "bannerId": "1251017",
+                          "creativeId": "TopPicks/DCICrm",
+                          "title": "Dark Chocolate Ice Cream [500 Ml]",
+                          "description": " ",
+                          "fontColor": "#FFFFFF",
+                          "dish": {
+                            "info": {
+                              "id": "119376283",
+                              "name": "Dark Chocolate Ice Cream [500 Ml]",
+                              "category": "Ice Cream Tubs",
+                              "description": "Satisfy your sweet tooth without the guilt - our creamy dark chocolate ice cream is made with less sugar and calories.",
+                              "imageId": "2cde687e48a20c563c2131d1b842aa8e",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 31350,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "itemBadge": {},
+                              "badgesV2": {}
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "type": "TopCarousel",
+                          "subtype": "image",
+                          "bannerId": "1251107",
+                          "creativeId": "TopPicks/VMBIC10pcs",
+                          "title": "Vanilla Mini Bites Ice Cream [10 Pieces]",
+                          "description": " ",
+                          "fontColor": "#FFFFFF",
+                          "dish": {
+                            "info": {
+                              "id": "119376355",
+                              "name": "Vanilla Mini Bites Ice Cream [10 Pieces]",
+                              "category": "Mini Bites",
+                              "description": "Experience the perfect blend of creamy vanilla and rich chocolate in every bite \r.30 calories | zero added sugar | 10pcs",
+                              "imageId": "592d792068997c3757cd449dc8045211",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 28400,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "itemBadge": {},
+                              "badgesV2": {}
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "type": "TopCarousel",
+                          "subtype": "image",
+                          "bannerId": "1251197",
+                          "creativeId": "TopPicks/CMBIC10pcs",
+                          "title": "Chocolate Mini Bites Ice Cream [10 Pieces]",
+                          "description": " ",
+                          "fontColor": "#FFFFFF",
+                          "dish": {
+                            "info": {
+                              "id": "119376268",
+                              "name": "Chocolate Mini Bites Ice Cream [10 Pieces]",
+                              "category": "Mini Bites",
+                              "description": "Indulge in the rich, intense flavor of premium dark chocolate in every bite, perfect for a guilt-free snack\r 30 calories | zero added sugar | 10pcs",
+                              "imageId": "1828834a599f4108ce04462fb80d826b",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 28400,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "itemBadge": {},
+                              "badgesV2": {}
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "type": "TopCarousel",
+                          "subtype": "image",
+                          "bannerId": "1251287",
+                          "creativeId": "TopPicks/RoHazIC",
+                          "title": "Roasted Hazelnut Ice Cream [80 Ml]",
+                          "description": " ",
+                          "fontColor": "#FFFFFF",
+                          "dish": {
+                            "info": {
+                              "id": "119376336",
+                              "name": "Roasted Hazelnut Ice Cream [80 Ml]",
+                              "category": "Ice Cream Bars",
+                              "description": "Rich, nutty flavor of roasted hazelnuts combined with chocolate-y goodness, a bar so delicious, it will keep you wanting more! \r135 Calories | Zero Added Sugar | 80ml",
+                              "imageId": "18449f289889f8063d459774bcd9ac83",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 10200,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Recommended",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "121000595",
+                              "name": "Crunchy Coffee Mini Bites Ice Cream [10 pieces]",
+                              "category": "Mini Bites",
+                              "description": "Experience the perfect blend of crunch and coffee goodness with NOTO's Crunchy Coffee Mini Bites\n35 Calories | Zero Added Sugar | 10 pcs",
+                              "imageId": "6e996cf3ab7286d13c56a4cd33ef12b7",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 28400,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "5.0",
+                                  "ratingCount": "5 ratings",
+                                  "ratingCountV2": "5"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "121000594",
+                              "name": "Coconut Mini Bites Ice Cream [10 pieces]",
+                              "category": "Mini Bites",
+                              "description": "Savor the taste of the tropics with NOTO's Coconut Mini Bites. Coconut ice cream, chocolate coating, zero added sugar. Pure coconut joy!\n45 Calories | No Added Sugar | 10 pieces",
+                              "imageId": "91271301d967fdd6c1f34c65f75e3929",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 28400,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "123534167",
+                              "name": "Vegan Vanilla Ice Cream [500 Ml]",
+                              "category": "Vegan - Zero Sugar",
+                              "description": "The classic vanilla experience with plant based goodness! So velvety and delicious, you'd forget it's vegan.\nMade with Zero Added Sugar, Dairy Free, Gluten Free and almond protein. Unbelievably vegan!",
+                              "imageId": "54bda9a68bb51e7fffa7d30e009fe3f4",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 37300,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "121000596",
+                              "name": "Filter Coffee Gelato [100 ml]",
+                              "category": "Gelato Ice Cream",
+                              "description": "Indulge in the bold and authentic flavors of freshly brewed filter coffee, perfectly infused into our creamy gelato ice cream\n105 Calories | 100 ml",
+                              "imageId": "76096058e05cbba50ef6ebb0ae2f7a24",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "type": "CATEGORY_TYPE_RECOMMENDED"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Baked Cheesecakes",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "126983977",
+                              "name": "Baked Lotus Biscoff Cheesecake [90 gms]",
+                              "category": "Baked Cheesecakes",
+                              "description": "\"Cheesecake with caramelised cookie butter spread which is NOTO-riously good!\nMade with 5 gms of Added Sugar & contains 260 Calories which is eating and not cheating.\"",
+                              "imageId": "2cbe7e163f956a08027a410de75a3167",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 22500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "126983978",
+                              "name": "Baked Blueberry Cheesecake [90 gms]",
+                              "category": "Baked Cheesecakes",
+                              "description": "\"Our blueberry swirled cheesecake is a slice of heaven in every bite!\nMade with 6 gms of Added Sugar & contains 200 Calories which is eating and not cheating.\"",
+                              "imageId": "981a44210e48673f9cadb6e25c3078bc",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 22500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "126983979",
+                              "name": "Baked New York Cheesecake [90 gms]",
+                              "category": "Baked Cheesecakes",
+                              "description": "\"Classic New York Style Baked Cheesecake handcrafted to eat and not cheat! \nNo Added Sugar.\"",
+                              "imageId": "078cfc4b5c9b615bab358e232cf2614c",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 22500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Ice Cream Bars",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "119376263",
+                              "name": "Chocolate Brownie Ice Cream [80 Ml]",
+                              "category": "Ice Cream Bars",
+                              "description": "Filled with chocolate-y goodness and real brownie bits, a bar so good, you won't be able to resist going back for another! \r130 Calories | Zero Added Sugar | 80ml",
+                              "imageId": "ed4fdead308ad0e5a3907e394f9e1288",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 10200,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.6",
+                                  "ratingCount": "16 ratings",
+                                  "ratingCountV2": "16"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "119376336",
+                              "name": "Roasted Hazelnut Ice Cream [80 Ml]",
+                              "category": "Ice Cream Bars",
+                              "description": "Rich, nutty flavor of roasted hazelnuts combined with chocolate-y goodness, a bar so delicious, it will keep you wanting more! \r135 Calories | Zero Added Sugar | 80ml",
+                              "imageId": "18449f289889f8063d459774bcd9ac83",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 10200,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "20 ratings",
+                                  "ratingCountV2": "20"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "119376265",
+                              "name": "Chocolate Coffee Fudgesicle Ice Cream [70 Ml]",
+                              "category": "Ice Cream Bars",
+                              "description": "Get your caffeine fix with our fudgesicle, made with zero added sugar. Perfect for a refreshing and energizing summer treat, this delicious fudgesicle on a stick is the perfect way to kickstart or wind down your day.",
+                              "imageId": "f3fab4087414df92d21b012917b636e6",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 10200,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "11 ratings",
+                                  "ratingCountV2": "11"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
+                      "title": "Ice Cream Tubs",
+                      "categories": [
+                        {
+                          "title": "Family Tubs - 500Ml",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "119376314",
+                                  "name": "Mangoes And Cream Ice Cream [500 Ml]",
+                                  "category": "Ice Cream Tubs",
+                                  "description": "Relish the luscious blend of creamy goodness and fresh Alphonso mangoes in every spoon. \rperfect for indulging in the year-round mango season\r",
+                                  "imageId": "dd6b70654875a4f25e0a342fe550f6d8",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 31350,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "3.5",
+                                      "ratingCount": "4 ratings",
+                                      "ratingCountV2": "4"
+                                    }
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "119376283",
+                                  "name": "Dark Chocolate Ice Cream [500 Ml]",
+                                  "category": "Ice Cream Tubs",
+                                  "description": "Satisfy your sweet tooth without the guilt - our creamy dark chocolate ice cream is made with less sugar and calories.",
+                                  "imageId": "2cde687e48a20c563c2131d1b842aa8e",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 31350,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.4",
+                                      "ratingCount": "6 ratings",
+                                      "ratingCountV2": "6"
+                                    }
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "119376345",
+                                  "name": "Salted Caramel Ice Cream [500 Ml]",
+                                  "category": "Ice Cream Tubs",
+                                  "description": "Sweet indulgence with caramel and sea salt that's blended to create an irrestible ice cream.\r Warning: One scoop may not be enough!",
+                                  "imageId": "defc32dbed2a7acea526340b8aadf31d",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 31350,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "3.0",
+                                      "ratingCount": "3 ratings",
+                                      "ratingCountV2": "3"
+                                    }
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "119376288",
+                                  "name": "French Vanilla Ice Cream [500 Ml]",
+                                  "category": "Ice Cream Tubs",
+                                  "description": "Indulge in the timeless classic of creamy, sweet vanilla ice cream. Made with no artificial sweeteners or preservatives. It's simple. It's satisfying.",
+                                  "imageId": "2c930cd03ce0f23f35a35f14aa99b1d2",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 31350,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {}
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "119376323",
+                                  "name": "Mocha Choco Chip Ice Cream [500 Ml]",
+                                  "category": "Ice Cream Tubs",
+                                  "description": "Savour the exquisite fusion of mocha and chocolate chips. made with genuine chocolate chunks and quality Indian coffee.",
+                                  "imageId": "b8a81b26c6c9ac205ce873ba39056fc5",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 31350,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.3",
+                                      "ratingCount": "7 ratings",
+                                      "ratingCountV2": "7"
+                                    }
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Mini Tubs - 125Ml",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "124176872",
+                                  "name": "Cookies and Cream [125 ml]",
+                                  "category": "Ice Cream Tubs",
+                                  "description": "Crafted with love this flavor pays homage to a beloved classic - the perfect marriage of rich, creamy vanilla and the irresistible crunch of chocolate cookies \n\n105 calories",
+                                  "imageId": "d79f27c4aee9d58ffcd9e6d3df068ad6",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 9300,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "3.5",
+                                      "ratingCount": "5 ratings",
+                                      "ratingCountV2": "5"
+                                    }
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "119376278",
+                                  "name": "Dark Chocolate Ice Cream [125 Ml]",
+                                  "category": "Ice Cream Tubs",
+                                  "description": "Satisfy your sweet tooth without the guilt - our creamy dark chocolate ice cream is made with 75% less sugar \r\n85 calories",
+                                  "imageId": "2cde687e48a20c563c2131d1b842aa8e",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 9300,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+                                    "text": "Bestseller",
+                                    "textColor": "#ffffff",
+                                    "topBackgroundColor": "#d53d4c",
+                                    "bottomBackgroundColor": "#b02331"
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "isBestseller": true,
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.6",
+                                      "ratingCount": "19 ratings",
+                                      "ratingCountV2": "19"
+                                    }
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "119376321",
+                                  "name": "Mocha Choco Chip Ice Cream [125 Ml]",
+                                  "category": "Ice Cream Tubs",
+                                  "description": "Savour the exquisite fusion of mocha and chocolate chips. made with genuine chocolate chunks and quality Indian coffee.\r\n95 calories",
+                                  "imageId": "b8a81b26c6c9ac205ce873ba39056fc5",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 9300,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+                                    "text": "Bestseller",
+                                    "textColor": "#ffffff",
+                                    "topBackgroundColor": "#d53d4c",
+                                    "bottomBackgroundColor": "#b02331"
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "isBestseller": true,
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.6",
+                                      "ratingCount": "8 ratings",
+                                      "ratingCountV2": "8"
+                                    }
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "119376311",
+                                  "name": "Mangoes And Cream Ice Cream [125 Ml]",
+                                  "category": "Ice Cream Tubs",
+                                  "description": "Relish the luscious blend of creamy goodness and fresh Alphonso mangoes in every spoon. \r perfect for indulging in the year-round mango season\r 75 Calories",
+                                  "imageId": "dd6b70654875a4f25e0a342fe550f6d8",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 9300,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+                                    "text": "Bestseller",
+                                    "textColor": "#ffffff",
+                                    "topBackgroundColor": "#d53d4c",
+                                    "bottomBackgroundColor": "#b02331"
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "isBestseller": true,
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.0",
+                                      "ratingCount": "6 ratings",
+                                      "ratingCountV2": "6"
+                                    }
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "119376343",
+                                  "name": "Salted Caramel Ice Cream [125 Ml]",
+                                  "category": "Ice Cream Tubs",
+                                  "description": "Sweet indulgence with caramel and sea salt that's blended to create an irrestible ice cream.\r Warning: One scoop may not be enough!\r 75 Calories",
+                                  "imageId": "defc32dbed2a7acea526340b8aadf31d",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 9300,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+                                    "text": "Bestseller",
+                                    "textColor": "#ffffff",
+                                    "topBackgroundColor": "#d53d4c",
+                                    "bottomBackgroundColor": "#b02331"
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "isBestseller": true,
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "3.5",
+                                      "ratingCount": "7 ratings",
+                                      "ratingCountV2": "7"
+                                    }
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "119376347",
+                                  "name": "Spicy Pink Guava Ice Cream [125 Ml]",
+                                  "category": "Ice Cream Tubs",
+                                  "description": " The perfect blend of sweet and spicy, made with real guava pulp and a pinch of red chili powder.\r 75 Calories",
+                                  "imageId": "79776d324ef82853561f2155a19bbef9",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 9300,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "3.9",
+                                      "ratingCount": "7 ratings",
+                                      "ratingCountV2": "7"
+                                    }
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "119376307",
+                                  "name": "Malai Kulfi Ice Cream [125 Ml]",
+                                  "category": "Ice Cream Tubs",
+                                  "description": " Topped with bits of crunchy cashews, filled with milky goodness and desi deliciousness. A classic dessert reinvented as an ice cream that is low in calories, fat and sugar. No Artificial sweeteners or preservatives. \r100% Vegetarian (Per serving: 95 cal, 2.2gms sugar, 4.5gms protein compared to traditional ice cream)\"",
+                                  "imageId": "acfdfd981fe91bd0a324f6d550dc7807",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 9300,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+                                    "text": "Bestseller",
+                                    "textColor": "#ffffff",
+                                    "topBackgroundColor": "#d53d4c",
+                                    "bottomBackgroundColor": "#b02331"
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "isBestseller": true,
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "3.5",
+                                      "ratingCount": "7 ratings",
+                                      "ratingCountV2": "7"
+                                    }
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "119376255",
+                                  "name": "Blueberry Ice Cream [125 Ml]",
+                                  "category": "Ice Cream Tubs",
+                                  "description": "An interesting blend of low calorie ice cream with the freshest blueberries from FARM2fam.\r 80 Calories",
+                                  "imageId": "a1487b846d04f33bc312ddd07d38c0d7",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 9300,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "3.9",
+                                      "ratingCount": "53 ratings",
+                                      "ratingCountV2": "53"
+                                    }
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "119376286",
+                                  "name": "French Vanilla Ice Cream [125 Ml]",
+                                  "category": "Ice Cream Tubs",
+                                  "description": "Indulge in the timeless classic of creamy, sweet vanilla ice cream. Made with no artificial sweeteners or preservatives. It's simple. It's satisfying.\r 75 Calories",
+                                  "imageId": "2c930cd03ce0f23f35a35f14aa99b1d2",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 9300,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "3.7",
+                                      "ratingCount": "5 ratings",
+                                      "ratingCountV2": "5"
+                                    }
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "119376349",
+                                  "name": "Strawberry Ice Cream [125 Ml]",
+                                  "category": "Ice Cream Tubs",
+                                  "description": "A sweet and refreshing indulgence with creamy strawberry ice cream, bursting with juicy and luscious flavor\r 80 calories",
+                                  "imageId": "9a3621ec6357896896bf5287061bb8c2",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 9300,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.5",
+                                      "ratingCount": "28 ratings",
+                                      "ratingCountV2": "28"
+                                    }
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "119376317",
+                                  "name": "Mint Choco Chip Ice Cream [125 Ml]",
+                                  "category": "Ice Cream Tubs",
+                                  "description": "Cool down with a scoop or two of NOTO?s latest mint choco chip flavour. Perfect post dinner dessert with less than 3gms of sugar. Yayy!\r No Artificial sweeteners or preservatives.100% Vegetarian (Per serving: 95 cal, 4.5gms sugar, 4gms protein compared to traditional ice cream) ",
+                                  "imageId": "1a0fdbadd3e04856ca2cdff0a3a32c8a",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 9300,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "3.8",
+                                      "ratingCount": "5 ratings",
+                                      "ratingCountV2": "5"
+                                    }
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "119376273",
+                                  "name": "Chocolate Peanut Butter Ice Cream [125 Ml]",
+                                  "category": "Ice Cream Tubs",
+                                  "description": "Our take on the classic combination of dark chocolate and peanut butter, this one is spoon-lickingly good. We're obsessed and we promise so will you.\r No Artificial sweeteners or preservatives,100% Vegetarian.\r (Per serving: 95 Cal, 2.1gms sugar, 5.6gms protein compared to traditional ice creams.)\r\n",
+                                  "imageId": "54aacfd5b464a5d858edf31a3bfd189f",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 9300,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {}
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "119376257",
+                                  "name": "Cereal Milk Ice Cream [125 Ml]",
+                                  "category": "Ice Cream Tubs",
+                                  "description": "Our newest cereal milk flavour will take you back down memory lane!\r It taste just like the milk at the bottom of a bowl of cornflakes! Dig in and enjoy!\r No Artificial sweeteners or preservatives.\r100% Vegetarian (Per serving: 75 cal, 3gms sugar, 5gms protein compared to traditional ice cream)",
+                                  "imageId": "9c5da5c9a123bc608d9f465013ef215d",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 9300,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {}
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Mini Bites",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "121000595",
+                              "name": "Crunchy Coffee Mini Bites Ice Cream [10 pieces]",
+                              "category": "Mini Bites",
+                              "description": "Experience the perfect blend of crunch and coffee goodness with NOTO's Crunchy Coffee Mini Bites\n35 Calories | Zero Added Sugar | 10 pcs",
+                              "imageId": "6e996cf3ab7286d13c56a4cd33ef12b7",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 28400,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "5.0",
+                                  "ratingCount": "5 ratings",
+                                  "ratingCountV2": "5"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "121000594",
+                              "name": "Coconut Mini Bites Ice Cream [10 pieces]",
+                              "category": "Mini Bites",
+                              "description": "Savor the taste of the tropics with NOTO's Coconut Mini Bites. Coconut ice cream, chocolate coating, zero added sugar. Pure coconut joy!\n45 Calories | No Added Sugar | 10 pieces",
+                              "imageId": "91271301d967fdd6c1f34c65f75e3929",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 28400,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "119376355",
+                              "name": "Vanilla Mini Bites Ice Cream [10 Pieces]",
+                              "category": "Mini Bites",
+                              "description": "Experience the perfect blend of creamy vanilla and rich chocolate in every bite \r.30 calories | zero added sugar | 10pcs",
+                              "imageId": "592d792068997c3757cd449dc8045211",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 28400,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "5.0",
+                                  "ratingCount": "7 ratings",
+                                  "ratingCountV2": "7"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "119376268",
+                              "name": "Chocolate Mini Bites Ice Cream [10 Pieces]",
+                              "category": "Mini Bites",
+                              "description": "Indulge in the rich, intense flavor of premium dark chocolate in every bite, perfect for a guilt-free snack\r 30 calories | zero added sugar | 10pcs",
+                              "imageId": "1828834a599f4108ce04462fb80d826b",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 28400,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "5.0",
+                                  "ratingCount": "4 ratings",
+                                  "ratingCountV2": "4"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "119376319",
+                              "name": "Mint Mini Bites Ice Cream [10 Pieces]",
+                              "category": "Mini Bites",
+                              "description": "Indulge in the refreshing taste of mint and the rich chocolatey goodness in every bite.\r30 calories | zero added sugar | 10pcs",
+                              "imageId": "050009624b1c34691eca2e3f1aa99d44",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 28400,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "5.0",
+                                  "ratingCount": "5 ratings",
+                                  "ratingCountV2": "5"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Fruit Popsicles",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "119376305",
+                              "name": "Lemon Popsicle Ice Cream [70 Ml]",
+                              "category": "Fruit Popsicles",
+                              "description": "Tangy fresh lemons is the ideal way to sate your sweet tooth while enjoying a cooling treat.\r 45 calories | zero added sugar | 70ml",
+                              "imageId": "001337443ddde167c53a3e1673bf1801",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 10200,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "2.2",
+                                  "ratingCount": "3 ratings",
+                                  "ratingCountV2": "3"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "119376299",
+                              "name": "Kala Jamun Popsicle Ice Cream [70 Ml]",
+                              "category": "Fruit Popsicles",
+                              "description": "a delicious and unique flavor that combines the sweetness of traditional Kala Jamun with the refreshing taste of a frozen treat\r  45 calories | zero added sugar | 70ml",
+                              "imageId": "6a68e2b2c49405a29728914ee598a532",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 10200,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.9",
+                                  "ratingCount": "5 ratings",
+                                  "ratingCountV2": "5"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "119376353",
+                              "name": "Strawberry Raspberry Popsicle Ice Cream [70 Ml]",
+                              "category": "Fruit Popsicles",
+                              "description": "Indulge in the delicious taste of real fruit with our Strawberry Raspberry popsicle. This popsicle is the perfect guilt-free treat for any time of day.\r45 calories | zero added sugar | 70ml ",
+                              "imageId": "a68f9541fb6d0f1fea65e95a53e8b5ef",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 10200,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "5.0",
+                                  "ratingCount": "8 ratings",
+                                  "ratingCountV2": "8"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "119376330",
+                              "name": "Orange Popsicle Ice Cream [70 Ml]",
+                              "category": "Fruit Popsicles",
+                              "description": "The classic popsicle filled with 40% real fruit, Vitamin C and 0 added sugar, a real treat on any day!\r 45 calories | zero added sugar | 70ml",
+                              "imageId": "691acd72bd71a9d4748a3282174b869f",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 10200,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.6",
+                                  "ratingCount": "6 ratings",
+                                  "ratingCountV2": "6"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "119376310",
+                              "name": "Mango Coconut Popsicle Ice Cream[70 Ml]",
+                              "category": "Fruit Popsicles",
+                              "description": "A delicious balance of mango and coconut - The perfect treat for the every season\r 45 calories | zero added sugar | 70ml",
+                              "imageId": "6c768e6518137742290079f29566c223",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 10200,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "5.0",
+                                  "ratingCount": "4 ratings",
+                                  "ratingCountV2": "4"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "119376331",
+                              "name": "Pina Colada Popsicle Ice Cream [70 Ml]",
+                              "category": "Fruit Popsicles",
+                              "description": "Tropical vibes with coconut, pineapple\r Made with real fruit & vitamin C fortified\r .45 calories | zero added sugar | 70ml",
+                              "imageId": "ab7be1ec92f2aa9d5f2d80c2fd736996",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 10200,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.9",
+                                  "ratingCount": "7 ratings",
+                                  "ratingCountV2": "7"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
+                      "title": "Vegan - Zero Sugar",
+                      "categories": [
+                        {
+                          "title": "Mini Tubs - 100 Ml",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "120475745",
+                                  "name": "Vegan Strawberry Ice Cream [100 Ml]",
+                                  "category": "Vegan - Zero Sugar",
+                                  "description": "Guilt-free vegan strawberry ice cream, crafted with plant-based ingredients for a rich and creamy treat that's as wholesome as it is delicious\n73 calories per serving",
+                                  "imageId": "83415a664ba14a0c3921912a5999d4db",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 9300,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {}
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "120475744",
+                                  "name": "Vegan Pistachio Ice Cream [100 Ml]",
+                                  "category": "Vegan - Zero Sugar",
+                                  "description": "The perfect blend of creamy and nutty flavors. Vegan pistachio ice cream, made with the finest plant-based ingredients for guilt-free enjoyment\n115 calories per serving",
+                                  "imageId": "28e530f5f45a934434eba62da6730044",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 11000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {}
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "120475743",
+                                  "name": "Vegan Mocha Almond Ice Cream [100 Ml]",
+                                  "category": "Vegan - Zero Sugar",
+                                  "description": "Savor the bold coffee flavor with chocolate-coated almonds and a chocolate fudge swirl. Zero added sugar. Dairy Free, Gluten Free, made with Almond Protein. Unbelievably Vegan! \n100 calories per serving",
+                                  "imageId": "a429171a6df5c1f54d1899baa0e3daf8",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 9300,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {}
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "120475740",
+                                  "name": "Vegan Choco Hazelnut Ice Cream [100 Ml]",
+                                  "category": "Vegan - Zero Sugar",
+                                  "description": "Get nutty for our vegan hazel-nutty ice cream! Dairy-free, gluten-free, almond protein. You won't believe it's vegan!\n110 calories per serving",
+                                  "imageId": "ee2c480a7e43b63db25b544e4c17672f",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 9300,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "3.6",
+                                      "ratingCount": "5 ratings",
+                                      "ratingCountV2": "5"
+                                    }
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "120475741",
+                                  "name": "Vegan Dark Chocolate Ice Cream [100 Ml]",
+                                  "category": "Vegan - Zero Sugar",
+                                  "description": "Creamy, dreamy, with satisfying crunch of cocoa and luscious swirls. Dairy-free, gluten-free, almond protein. Unbelievably vegan!\n120 calories per serving",
+                                  "imageId": "aa12e3569c75cd732614e48913d5cf4f",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 9300,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {}
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "120475742",
+                                  "name": "Vegan Mango Raspberry Ice Cream [100 Ml]",
+                                  "category": "Vegan - Zero Sugar",
+                                  "description": "Made with real mango pulp and raspberry swirls, a delicious creamy, dreamy texture with luscious swirls. Made with Zero Added Sugar, Dariy Free, Gluten Free and almond protein. Unbelievably vegan! \n75 calories per serving",
+                                  "imageId": "5240970a704268e6f511b2269ab35967",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 9300,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.3",
+                                      "ratingCount": "4 ratings",
+                                      "ratingCountV2": "4"
+                                    }
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Family Tubs - 500Ml - Vegan - Zero Sugar",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "123534167",
+                                  "name": "Vegan Vanilla Ice Cream [500 Ml]",
+                                  "category": "Vegan - Zero Sugar",
+                                  "description": "The classic vanilla experience with plant based goodness! So velvety and delicious, you'd forget it's vegan.\nMade with Zero Added Sugar, Dairy Free, Gluten Free and almond protein. Unbelievably vegan!",
+                                  "imageId": "54bda9a68bb51e7fffa7d30e009fe3f4",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 37300,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {}
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "119376359",
+                                  "name": "Vegan Dark Chocolate Ice Cream [500 Ml]",
+                                  "category": "Vegan - Zero Sugar",
+                                  "description": "Creamy, dreamy, with satisfying crunch of cocoa and luscious swirls. Dairy-free, gluten-free, almond protein. Unbelievably vegan!",
+                                  "imageId": "aa12e3569c75cd732614e48913d5cf4f",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 37300,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "5.0",
+                                      "ratingCount": "3 ratings",
+                                      "ratingCountV2": "3"
+                                    }
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "119376368",
+                                  "name": "Vegan Salted Caramel Ice Cream [500 Ml]",
+                                  "category": "Vegan - Zero Sugar",
+                                  "description": "Guilt-free and an irresistibly smooth and velvety vegan salted caramel ice cream, packed with rich and nutty notes and a hint of sea salt for the perfect balance of sweet and savory.\r 85 calories per serving",
+                                  "imageId": "b87cb7c4aa9b129f6c263ec6b1cb657e",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 37300,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.8",
+                                      "ratingCount": "17 ratings",
+                                      "ratingCountV2": "17"
+                                    }
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "119376356",
+                                  "name": "Vegan Choco Hazelnut Ice Cream [500 Ml]",
+                                  "category": "Vegan - Zero Sugar",
+                                  "description": "Get nutty for our vegan hazel-nutty ice cream! Dairy-free, gluten-free, almond protein. You won't believe it's vegan!",
+                                  "imageId": "ee2c480a7e43b63db25b544e4c17672f",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 37300,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.1",
+                                      "ratingCount": "4 ratings",
+                                      "ratingCountV2": "4"
+                                    }
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "119376364",
+                                  "name": "Vegan Mocha Almond Ice Cream [500 Ml]",
+                                  "category": "Vegan - Zero Sugar",
+                                  "description": "Savor the bold coffee flavor with chocolate-coated almonds and a chocolate fudge swirl. Zero added sugar. Dairy Free, Gluten Free, made with Almond Protein. Unbelievably Vegan! \"",
+                                  "imageId": "a429171a6df5c1f54d1899baa0e3daf8",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 37300,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.7",
+                                      "ratingCount": "19 ratings",
+                                      "ratingCountV2": "19"
+                                    }
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "119376362",
+                                  "name": "Vegan Mango Raspberry Ice Cream [500 Ml]",
+                                  "category": "Vegan - Zero Sugar",
+                                  "description": "Made with real mango pulp and raspberry swirls, a delicious creamy, dreamy texture with luscious swirls. Made with Zero Added Sugar, Dariy Free, Gluten Free and almond protein. Unbelievably vegan!",
+                                  "imageId": "5240970a704268e6f511b2269ab35967",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 37300,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "5.0",
+                                      "ratingCount": "3 ratings",
+                                      "ratingCountV2": "3"
+                                    }
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Mini Bites - Vegan - Zero Sugar",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "119376361",
+                                  "name": "Vegan Dark Chocolate Minis Ice Cream [10 Pieces]",
+                                  "category": "Vegan - Zero Sugar",
+                                  "description": "Bite sized vegan chocolate ice cream to sate your cravings\r 40 calories per bite | 10pcs",
+                                  "imageId": "c91b2154fe737155d214200b0d2ffc5b",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 30500,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {}
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "119376358",
+                                  "name": "Vegan Coffee Chocolate Minis Ice Cream [10 Pieces]",
+                                  "category": "Vegan - Zero Sugar",
+                                  "description": "Bite sized vegan coffee ice cream for that caffiene kick \r 40 calories per bite | 10 pcs",
+                                  "imageId": "57c82200def2d57e8957c43ff8c692bf",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 30500,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {}
+                                  }
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Ice Cream Cake",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "126073966",
+                              "name": "Kesar Pista Ice Cream Cake",
+                              "category": "Ice Cream Cake",
+                              "description": "\"Celebrate your festivities with the perfect dessert! Layers of saffron ice cream, vanilla cake topped with pistachios & cashews.\n100% Veg (225Gms) & with no added sugar\"",
+                              "imageId": "mvx28skjvbcr1ne5rktx",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 44500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "119376275",
+                              "name": "Chocolate Vanilla Ice Cream Cake",
+                              "category": "Ice Cream Cake",
+                              "description": "A decadent ice cream cake featuring luscious chocolate ganache, creamy vanilla ice cream, and cherry ganache atop chocolate cake",
+                              "imageId": "4a31fcfd251eac2b31368327c53ab2ce",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 38100,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "8 ratings",
+                                  "ratingCountV2": "8"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Gelato Ice Cream",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "121000596",
+                              "name": "Filter Coffee Gelato [100 ml]",
+                              "category": "Gelato Ice Cream",
+                              "description": "Indulge in the bold and authentic flavors of freshly brewed filter coffee, perfectly infused into our creamy gelato ice cream\n105 Calories | 100 ml",
+                              "imageId": "76096058e05cbba50ef6ebb0ae2f7a24",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "119376246",
+                              "name": "Aam Ras Gelato Ice Cream [100 Ml]",
+                              "category": "Gelato Ice Cream",
+                              "description": "The luscious taste of summer to indulge you everyday of the year!\r 105 Calories |100ml",
+                              "imageId": "55a6c726192d448b670b8f402d339006",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "2.8",
+                                  "ratingCount": "4 ratings",
+                                  "ratingCountV2": "4"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "119376341",
+                              "name": "Rose Pista Gelato Ice Cream [100 Ml]",
+                              "category": "Gelato Ice Cream",
+                              "description": "The subtle flavour of rose enhances the nutty pistachio, a perfect treat for anyone!\r 105 calories | 100ml",
+                              "imageId": "714fc26e0a48bfbf467574b01a5c97bc",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "119376303",
+                              "name": "Kesar Pista Gelato Ice Cream [100 Ml]",
+                              "category": "Gelato Ice Cream",
+                              "description": "Presenting the royal, creamy & everlasting flavour of India - Kesar Pista?\n 115 calories |100ml",
+                              "imageId": "ec2ff2006963c6ddc122a8a2f73f3235",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "119376248",
+                              "name": "Anjeer Gelato Ice Cream [100 Ml]",
+                              "category": "Gelato Ice Cream",
+                              "description": "A traditional Indian ice cream made with the goodness of dry figs.\r 125 calories | 100ml",
+                              "imageId": "63864b5c5d7c7d39b15de971cd9ae8b7",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "5.0",
+                                  "ratingCount": "4 ratings",
+                                  "ratingCountV2": "4"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Syrups - Sugar Free",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "119376372",
+                              "name": "Zero Sugar Pancake Syrup [355Ml]",
+                              "category": "Syrups - Sugar Free",
+                              "description": "Nothing tops this topping! With only 20 calories per serving and ZERO Sugar, this syrup is the perfect condiment for your pancakes, waffles and sundaes.",
+                              "imageId": "9217444823742be5a556992f29845627",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 31200,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+                      "type": "FSSAI",
+                      "imageId": "fssai_final_edss9i",
+                      "text": ["License No. 11221334001563"]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                      "name": "NOTO - Ice Creams & Desserts",
+                      "area": "Koramangla",
+                      "completeAddress": "KORMANGALA GROUND FLOOR GALA NO12,100 FT INNER RING ROAD,7TH CROSS,VGSLAYOUT,EJIPURA,VIVEK NAGARPOST,BANGALORE, B.B.M.P South,Karnataka,560047"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "firstOffsetRequest": true,
+    "isQCLink": false
+  },
+  "tid": "5ec3eef5-19b9-44d4-af44-b93dcd98972d",
+  "sid": "bfh59454-84e0-438b-9ef2-9d9cb86a8c15",
+  "deviceId": "668d10ae-ba54-b3fe-a49c-ce0fcf1a4e8f",
+  "csrfToken": "jxSUyNIf6Hnr-uNB_1IVPTeqInshWt6OZ_hz_XTg"
+}
